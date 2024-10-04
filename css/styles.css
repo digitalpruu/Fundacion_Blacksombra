@@ -16,7 +16,7 @@ html {
 .nav-container {
   width: 100%;
   height: auto;
-  background: #ff6961;
+  background: rgba(0, 0, 0, 0.9098039216);
 }
 .nav-container nav .logo-nav {
   display: flex;
@@ -42,7 +42,7 @@ html {
   font-weight: 700;
 }
 .nav-container nav .menu ul li a:hover {
-  color: black;
+  color: gray;
   transform: scale(2.1);
 }
 
@@ -91,7 +91,7 @@ main .product .product-section {
   scroll-snap-type: x proximity;
 }
 main .product .product-section .product-card {
-  background-color: #ff6961;
+  background-color: #f2c22d;
   scroll-snap-align: center;
   margin: 0 10px;
   width: 40vw;
@@ -127,7 +127,7 @@ main .catalogue img {
 }
 main .about-us {
   padding-top: 60px;
-  background-color: #98f6a9;
+  background-color: rgba(242, 193, 45, 0.6549019608);
 }
 main .about-us .about-us-text {
   text-align: center;
@@ -182,7 +182,7 @@ main .contact .contact-title a button:hover {
 
 footer {
   padding: 0 10px;
-  background: linear-gradient(207.8deg, #ff6961 16.69%, #98f6a9 100%);
+  background: linear-gradient(207.8deg, #000000 16.69%, #f2c22d 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,7 +193,7 @@ footer .social-media {
 footer .social-media h3 {
   padding: 15px 0;
   font-size: 2.5rem;
-  color: black;
+  color: white;
 }
 footer .social-media .social-icons a img {
   width: 15vw;
@@ -209,7 +209,7 @@ footer .number {
 footer .number p {
   font-size: 2rem;
   font-weight: 600;
-  color: black;
+  color: white;
 }
 footer .logo-footer {
   padding: 5px 0;
